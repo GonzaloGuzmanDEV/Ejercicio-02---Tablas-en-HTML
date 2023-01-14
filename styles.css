@@ -1,0 +1,59 @@
+body{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(rgb(65, 86, 206),rgb(49, 130, 206));
+    font-family: sans-serif;
+    color: white;
+}
+
+table{
+
+   
+    border: 1px solid white;
+    border-radius: 2%;
+    box-shadow: 0px 0px 10px white;
+    padding: 10px;
+}
+
+caption{
+
+    font-size:32px;
+    padding: 10px;
+    text-shadow: 1px 0 black;
+}
+
+thead{
+
+    background-color: rgb(19, 67, 172);
+    margin: 0;
+    border: 0;
+}
+
+th{
+
+    padding: 10px 15px;
+}
+
+tr{
+    border: 1px solid white;
+    
+}
+
+td{
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+td:hover{
+
+    background: rgb(93, 153, 231);
+}
+
+a{
+    color: white;
+}
